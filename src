@@ -1,0 +1,15 @@
+# Múltiplos de 3 o 5 debajo de 1000
+
+#sacar la suma
+
+# Si los numeros son multiplos de 3 o 5 --> si un numero es divisible entre si mismo
+
+#divisibles entre 3 o 5
+
+sum = 0
+
+for i in range(1000):
+    if (i % 3 == 0 or i % 5 == 0):
+        sum += i
+
+print(str(sum))
